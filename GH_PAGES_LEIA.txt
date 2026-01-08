@@ -1,0 +1,15 @@
+BTX Laudos (V6) — GitHub Pages (corrigido)
+
+✅ Para publicar no GitHub Pages:
+1) Envie TODO o conteúdo deste ZIP para a RAIZ do repositório (main).
+2) No GitHub: Settings → Pages → Deploy from a branch → main / (root).
+3) Aguarde 30–60s e abra o link do Pages.
+
+IMPORTANTE:
+- A IA "ao vivo" (OpenAI) precisa de backend (Python). GitHub Pages NÃO roda Python.
+- Para usar a IA no computador (localhost), use a pasta /server_local:
+   a) Instale Python
+   b) No terminal, dentro de /server_local:  pip install -r requirements.txt
+   c) Configure sua chave:  setx OPENAI_API_KEY "SUA_CHAVE"
+   d) Rode:  python server.py
+   e) Abra: http://127.0.0.1:5173
